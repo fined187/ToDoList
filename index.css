@@ -1,0 +1,124 @@
+body {
+  background-color: #2c3e50;
+}
+
+.btn {
+  cursor: pointer;
+}
+body {
+  color: black;
+}
+
+.clicked{
+  color: #7f8c8d;
+}
+
+.greeting {
+  display: none;
+  position: absolute;
+  left: 48%;
+  top: 22%;
+  font-size: 20pt;
+  color: black;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.getTime {
+  color: white;
+}
+
+.H1 {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  font-size: 50pt;
+  color: lightslategrey;
+}
+
+.js-form form {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+
+.js-toDoForm {
+  position: absolute;
+  left: 48%;
+  top: 40%;
+}
+
+.js-toDoList {
+  position: absolute;
+  left: 46%;
+  top: 42%;
+  font-size: 10pt;
+}
+
+.js-weather{
+  position: absolute;
+  left: 48%;
+  top: 36%;
+  font-size: large;
+  color: darkred;
+}
+
+
+.List {
+  align-items: center;
+  background: rgba(var(--b3f,250,250,250),1);
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+}
+
+.button {
+  position: absolute;
+  left: 49.5%;
+  top: 31%;
+  background-color: rgba(0,149,246,.3);
+  background-color: #0095f6;
+  background: border-box;
+  font-size: 18px;
+  font-style: italic;
+  padding: 2px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.form {
+  display: none;
+}
+
+.listText {
+  background-color: azure;
+  border-radius: 5px;
+  font-size: 18px;
+}
